@@ -1,0 +1,18 @@
+# Number Guessing Game using python
+import random
+fix = random.randint(1,100)
+i = 1
+while i <= 7:
+    guess = int(input("enter a number: "))
+    if guess == fix:
+        print("-"*20,"You Won The Game","-"*20)
+        break
+    else:
+        if guess > fix:
+            print("Too High")
+        else:
+            print("Too Low")
+    i+=1
+else:
+    print("You Lost The Game")
+print("-"*20,"Game Over","-"*20)
