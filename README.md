@@ -5,7 +5,7 @@ A collection of beginner-to-intermediate Python projects to practice logic, prob
 
 ## 📌 Projects Included
 
-### 🎯 1. Number Guessing Game
+### 1. Number Guessing Game
 
 A simple game where the user tries to guess in 7 choices a randomly generated number.
 
